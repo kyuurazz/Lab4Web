@@ -33,10 +33,11 @@ switch ($mod) {
 ?>
 ```
 
-- Tambahkan simbol @ pada method `$_REQUEST` untuk menghilangkan Undefined array key error.
+- Tambahkan simbol @ sebelum method `$_REQUEST` untuk menghilangkan Undefined array key error.
 
 # Aktifasi mod_rewrite (.htaccess)
 <p>Mod_rewrite digunakan untuk mengubah URL dari query string menjadi SEO Friendly.</p>
+
 - Langkah awal yang harus disiapkan adalah aktivasi mod_rewrite pada Web Server Apache2 pada configurasi httpd.conf.
 
 ![Aktifasi](img/mod_rewrite.png)
